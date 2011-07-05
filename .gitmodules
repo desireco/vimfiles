@@ -3,7 +3,7 @@
 	url = git://github.com/tpope/vim-cucumber.git
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
-	url = git://github.com/tpope/vim-git.git
+	url = git://github.com/tpope/vim-git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
@@ -42,11 +42,11 @@
 	url = git://github.com/Shougo/neocomplcache.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = http://github.com/kchmck/vim-coffee-script.git
+	url = git://github.com/kchmck/vim-coffee-script.git
 [submodule "bundle/vim-ack"]
 	path = bundle/vim-ack
-	url = http://github.com/mileszs/ack.vim.git
+	url = git://github.com/mileszs/ack.vim.git
 [submodule "bundle/vim-ruby-refactoring"]
 	path = bundle/vim-ruby-refactoring
-	url = http://github.com/ecomba/vim-ruby-refactoring.git
+	url = git://github.com/ecomba/vim-ruby-refactoring.git
 

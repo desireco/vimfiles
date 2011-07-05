@@ -50,3 +50,6 @@
 	path = bundle/vim-ruby-refactoring
 	url = git://github.com/ecomba/vim-ruby-refactoring.git
 
+[submodule "bundle/commandT"]
+	path = bundle/commandT
+	url = git://github.com/vim-scripts/Command-T.git

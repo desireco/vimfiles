@@ -9,3 +9,6 @@ If you pull, this is what you should do
     $ git submodule init
     $ git submodule update
 
+    $ ln -s ~/.vim/vimrc ~/.vimrc
+    $ ln -s ~/.vim/gvimrc ~/.gvimrc
+

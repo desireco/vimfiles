@@ -43,3 +43,7 @@ noremap <Leader>vc :RVcontroller <CR>
 noremap <Leader>vv :RVview <CR>
 noremap <Leader>vu :RVunittest <CR>
 noremap <Leader>vM :RVmigration <CR>
+noremap <Leader>vs :RVspec <CR>
+noremap <Leader>rf :Rfind 
+
+noremap <Leader>term :ConqueTerm zsh <CR>

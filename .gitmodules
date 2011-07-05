@@ -49,7 +49,6 @@
 [submodule "bundle/vim-ruby-refactoring"]
 	path = bundle/vim-ruby-refactoring
 	url = git://github.com/ecomba/vim-ruby-refactoring.git
-
-[submodule "bundle/commandT"]
-	path = bundle/commandT
-	url = git://github.com/vim-scripts/Command-T.git
+[submodule "bundle/vim-conque"]
+	path = bundle/vim-conque
+	url = git://github.com/rson/vim-conque.git

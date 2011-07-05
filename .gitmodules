@@ -55,3 +55,9 @@
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise.git
+[submodule "bundle/vimOutliner"]
+	path = bundle/vimOutliner
+	url = git://github.com/vim-scripts/VimOutliner.git
+[submodule "bundle/vim-jst"]
+	path = bundle/vim-jst
+	url = git://github.com/briancollins/vim-jst.git

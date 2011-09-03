@@ -25,6 +25,10 @@ set hlsearch
 
 
 let otl_map_tabs = 1
+let otl_install_menu=1
+let no_otl_maps=0
+let no_otl_insert_maps=0
+
 let mapleader=','
 
 nnoremap ; :

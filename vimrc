@@ -42,6 +42,8 @@ map <CA-Right> <C-w><Right>
 map <CA-Up> <C-w><Up>
 map <CA-Down> <C-w><Down>
 
+nnoremap <leader>wr <Plug>VimroomToggle
+
 noremap <Leader>vm :RVmodel <CR>
 noremap <Leader>vc :RVcontroller <CR> 
 noremap <Leader>vv :RVview <CR>

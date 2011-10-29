@@ -119,7 +119,7 @@ if v:version >= 700
     highlight SpellCap    term=reverse   ctermbg=9  gui=undercurl guisp=Blue
     highlight SpellRare   term=reverse   ctermbg=13 gui=undercurl guisp=Magenta
     highlight SpellLocale term=underline ctermbg=11 gui=undercurl guisp=DarkCyan
-endif 
+endif
 
 " Completion {{{1
 highlight Pmenu      ctermbg=13  guifg=Black   guibg=#BDDFFF
@@ -129,7 +129,7 @@ highlight PmenuThumb cterm=reverse  gui=reverse guifg=Black   guibg=#AAAAAA
 
 " Misc {{{1
 highlight KDE              guifg=magenta gui=NONE
-highlight mySpecialSymbols guifg=magenta gui=NONE 
+highlight mySpecialSymbols guifg=magenta gui=NONE
 
 
 highlight MatchParen  term=reverse ctermbg=11 gui=bold guibg=#B5EEB5 guifg=black

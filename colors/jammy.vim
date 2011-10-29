@@ -1,4 +1,4 @@
-" Vim color file inherit from the desrt.vim 
+" Vim color file inherit from the desrt.vim
 " Maintainer:	Jammy Lee<mistapostle@gmail.com>
 " Last Change:	$Date: 2008/03/20 19:30:30 $
 " Version:	$Id: jammy.vim,v 1.1 2008/03/20 $
@@ -57,7 +57,7 @@ hi WarningMsg	guifg=salmon
 hi Comment	guifg=grey60
 hi Constant	guifg=indianred
 
-hi Identifier	guifg=palegreen 
+hi Identifier	guifg=palegreen
 "hi Identifier	guifg=#D18B2C
 "palegreen
 "hi Statement	guifg=khaki

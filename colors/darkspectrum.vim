@@ -92,7 +92,7 @@ hi WildMenu     guifg=#ffffff guibg=#3465a4 gui=none
 hi Pmenu        guibg=#000000 guifg=#c0c0c0
 hi PmenuSel     guibg=#3465a4 guifg=#ffffff
 hi PmenuSbar    guibg=#444444 guifg=#444444
-hi PmenuThumb   guibg=#888888 guifg=#888888 
+hi PmenuThumb   guibg=#888888 guifg=#888888
 
 hi cppSTLType   guifg=#729fcf gui=bold
 

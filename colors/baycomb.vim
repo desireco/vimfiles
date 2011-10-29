@@ -1,14 +1,14 @@
 " Vim color file
 " baycomb v2.4
 " http://www.vim.org/scripts/script.php?script_id=1454
-" 
+"
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
 "
 "   * Place :colo baycomb in your VimRC/GVimRC file
 "   * Also add :set background=dark  or :setbackground=light
 "     depending on your preference.
 "
-"   - Thanks to Desert and OceanDeep for their color scheme 
+"   - Thanks to Desert and OceanDeep for their color scheme
 "     file layouts
 "   - Thanks to Raimon Grau and Bob Lied for their feedback
 
@@ -29,7 +29,7 @@ hi NonText      guifg=#382920 guibg=bg
 
 hi Folded       guibg=#232235 guifg=grey
 hi FoldColumn	guibg=#0a0a18 guifg=#dbcaa5
-hi LineNr       guibg=#101124 guifg=#206aa9 
+hi LineNr       guibg=#101124 guifg=#206aa9
 hi StatusLine	guibg=#354070 guifg=#6880ea gui=none
 hi StatusLineNC	guibg=#2c3054 guifg=#5c6dbe gui=none
 hi VertSplit	guibg=#22253c guifg=#223355  gui=none
@@ -61,8 +61,8 @@ hi Special	    guifg=#aaaaca
 hi Ignore       guifg=grey40
 hi Todo		    guifg=orangered guibg=yellow2
 hi Error        guibg=#b03452
-hi Function     guifg=#bab588 guibg=bg gui=bold 
-hi Identifier   guifg=#5094c4   
+hi Function     guifg=#bab588 guibg=bg gui=bold
+hi Identifier   guifg=#5094c4
 """""this section borrowed from OceanDeep/Midnight"""""
 highlight Conditional gui=None guifg=#d0688d guibg=bg
 highlight Repeat gui=None guifg=#e06070 guibg=bg
@@ -86,7 +86,7 @@ hi Cursor       guibg=#cad5c0 guifg=#0000aa
 
 
 hi Search       guibg=darkyellow guifg=black
-hi IncSearch	guifg=#babeaa guibg=#3a4520 
+hi IncSearch	guifg=#babeaa guibg=#3a4520
 
 hi ModeMsg    	guifg=#00AACC
 hi MoreMsg      guifg=SeaGreen
@@ -103,7 +103,7 @@ hi WarningMsg	guifg=salmon
 
 " new Vim 7.0 items
 hi Pmenu        guibg=#3a6595 guifg=#9aadd5
-hi PmenuSel     guibg=#4a85ba guifg=#b0d0f0                    
+hi PmenuSel     guibg=#4a85ba guifg=#b0d0f0
 
 
 
@@ -170,7 +170,7 @@ hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 " new Vim 7.0 items
 hi Pmenu        ctermbg=darkblue ctermfg=lightgrey
-hi PmenuSel     ctermbg=lightblue ctermfg=white                    
+hi PmenuSel     ctermbg=lightblue ctermfg=white
 
 hi tablinesel   ctermfg=cyan ctermbg=blue
 hi tabline      ctermfg=black ctermbg=blue
@@ -197,20 +197,20 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 hi Title		guifg=#857540  gui=none
-hi Underlined   guifg=#8a758a  
+hi Underlined   guifg=#8a758a
 
 hi Statement    guifg=#da302a  gui=none
 hi Type			guifg=#307aca  gui=none
 hi Constant		guifg=#3a40aa  gui=none
-hi PreProc      guifg=#9570b5 
+hi PreProc      guifg=#9570b5
 hi Identifier   guifg=#856075  "gui=bold
-hi Special		guifg=#652a7a 
+hi Special		guifg=#652a7a
 hi Ignore       guifg=grey40
 hi Todo			guifg=orangered guibg=yellow2
 hi Error        guibg=#b03452
 """""this section borrowed from OceanDeep/Midnight"""""
-hi Number guifg=#006bcd 
-hi Function gui=None guifg=#d06d50 "or green 50b3b0 
+hi Number guifg=#006bcd
+hi Function gui=None guifg=#d06d50 "or green 50b3b0
 highlight Conditional gui=None guifg=#a50a4a
 highlight Repeat gui=None guifg=#700d8a
 "hi Label gui=None guifg=LightGreen guibg=bg
@@ -234,12 +234,12 @@ hi Cursor       guibg=#cadaca guifg=#05293d
 hi FoldColumn	guibg=#409ae0 guifg=darkgrey
 "hi FoldColumn	guibg=#83a5cd guifg=#70459F
 hi LineNr       guibg=#409ae0 guifg=darkblue gui=bold
-"hi LineNr       guibg=#081c30 guifg=#80a0dA 
+"hi LineNr       guibg=#081c30 guifg=#80a0dA
 hi StatusLine	guibg=#20b5fd guifg=#0a150d gui=none
 hi StatusLineNC	guibg=#0580da guifg=#302d34 gui=none
 
 hi Search       guibg=#babdad guifg=#3a4520
-hi IncSearch	guifg=#dadeca guibg=#3a4520 
+hi IncSearch	guifg=#dadeca guibg=#3a4520
 
 hi VertSplit	guibg=#525f95 guifg=grey50 gui=none
 hi Folded       guibg=#252f5d guifg=#BBDDCC
@@ -258,7 +258,7 @@ hi WarningMsg	guifg=salmon
 
 " new Vim 7.0 items
 hi Pmenu        guibg=#3a6595 guifg=#9aadd5
-hi PmenuSel     guibg=#4a85ba guifg=#b0d0f0                    
+hi PmenuSel     guibg=#4a85ba guifg=#b0d0f0
 
 
 
@@ -312,7 +312,7 @@ hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 " new Vim 7.0 items
 hi Pmenu        ctermbg=darkblue ctermfg=lightgrey
-hi PmenuSel     ctermbg=lightblue ctermfg=white                    
+hi PmenuSel     ctermbg=lightblue ctermfg=white
 
 "vim: sw=4
 

@@ -64,7 +64,7 @@ fun! netrwFileHandlers#Invoke(exten,fname)
 "   call Decho("let ret= netrwFileHandlers#NFH_".a:exten.'("'.fname.'")')
    exe "let ret= s:NFH_".a:exten.'("'.fname.'")'
   endif
-  
+
 "  call Dret("netrwFileHandlers#Invoke 0 : ret=".ret)
   return 0
 endfun

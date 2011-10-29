@@ -48,7 +48,7 @@ hi Comment   guifg=#a0b0c0               gui=italic
 
 " Konstanten
 hi Constant  guifg=#a07040
-hi String    guifg=#4070a0 
+hi String    guifg=#4070a0
 hi Number    guifg=#40a070
 hi Float     guifg=#70a040
 "hi Statement guifg=#0070e0 gui=NONE
@@ -80,8 +80,8 @@ hi Special    guifg=#70a0d0 gui=italic
 
 hi Operator   guifg=#408010
 
-" color of <TAB>s etc...  
-hi SpecialKey guifg=#d8a080 guibg=#e8e8e8 gui=italic  
+" color of <TAB>s etc...
+hi SpecialKey guifg=#d8a080 guibg=#e8e8e8 gui=italic
 
 " Diff
 hi DiffChange guifg=NONE guibg=#e0e0e0 gui=italic,bold

@@ -104,7 +104,7 @@ hi perlVarSimpleMemberName	gui=NONE	guifg=grey70	guibg=bg
 " -------------------------------------------------------------------------------------------------
 " perlStatementRegexp perlSpecialDollar perlSpecialStringU perlSubstitutionBracket
 " perlTranslationBracket perlType perlStatementStorage perlStatementScalar
-" perlStatementNumeric perlStatementList perlStatementIOfunc 
+" perlStatementNumeric perlStatementList perlStatementIOfunc
 " perlStatementVector perlStatementFiles perlStatementFlow perlStatementScope
 " perlStatementProc perlStatementSocket perlStatementIPC perlStatementNetwork perlStatementPword
 " perlStatementTime perlStatementMisc perlStatementPackage perlList perlMisc

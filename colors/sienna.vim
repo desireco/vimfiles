@@ -61,7 +61,7 @@ if s:sienna_style == 'dark'
     hi Pmenu guibg=Grey55 guifg=Black gui=none
     hi PmenuSbar guibg=Grey40 guifg=fg gui=none
     hi PmenuSel guibg=Yellow2 guifg=Black gui=none
-    hi PmenuThumb guibg=Grey80 guifg=bg gui=none    
+    hi PmenuThumb guibg=Grey80 guifg=bg gui=none
 
     hi IncSearch gui=none guifg=Grey15 guibg=Grey85
     hi Search gui=none guifg=Black guibg=Yellow2

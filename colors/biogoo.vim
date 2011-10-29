@@ -23,7 +23,7 @@
 "	1.5:	should fully support Vim 7 now
 "	1.4:	more support for Vim 7: added the `MatchParen' group for ()[]{} matching
 "	1.3:	added support for Vim 7: added groups for the new spellchecking, and
-"			added a conditional to display Visual mode correctly in any version.		
+"			added a conditional to display Visual mode correctly in any version.
 "	1.2:	added `SpellErrors' group for use with vimspell.
 "	1.1:	added `IncSearch' group for improved visibility in incremental searches.
 "	1.0:	minor tweaks

@@ -21,9 +21,9 @@ hi ErrorMsg     term=standout  cterm=none ctermfg=white         ctermbg=DarkRed 
 hi Folded       term=reverse   cterm=none ctermfg=darkblue      ctermbg=lightgrey       gui=none guifg=darkblue         guibg=lightgrey
 "8 col term
 hi FoldColumn   term=reverse   cterm=none ctermfg=darkblue      ctermbg=grey            gui=none guifg=darkblue         guibg=grey
-hi IncSearch    term=reverse   cterm=none ctermfg=yellow        ctermbg=darkgreen       gui=none guifg=yellow           guibg=#449944 
+hi IncSearch    term=reverse   cterm=none ctermfg=yellow        ctermbg=darkgreen       gui=none guifg=yellow           guibg=#449944
 hi lCursor      term=reverse   cterm=none ctermfg=black         ctermbg=cyan            gui=none guifg=black            guibg=Cyan
-hi LineNr       term=reverse   cterm=none ctermfg=darkred       ctermbg=grey            gui=none guifg=brown            guibg=lightgrey 
+hi LineNr       term=reverse   cterm=none ctermfg=darkred       ctermbg=grey            gui=none guifg=brown            guibg=lightgrey
 hi ModeMsg      term=bold      cterm=none ctermfg=green         ctermbg=darkgreen       gui=none guifg=#007700          guibg=#aaccaa
 hi MoreMsg      term=bold      cterm=none ctermfg=darkGreen     ctermbg=white           gui=none guifg=darkgreen        guibg=bg
 hi Question     term=bold      cterm=none ctermfg=darkGreen     ctermbg=white           gui=none guifg=darkgreen        guibg=bg
@@ -34,12 +34,12 @@ hi StatusLine   term=reverse   cterm=none ctermfg=white         ctermbg=black   
 hi Title        term=bold      cterm=none ctermfg=DarkMagenta   ctermbg=white           gui=none guifg=DarkMagenta      guibg=bg
 if has("gui_running") || &t_Co > 8
         hi Visual       term=reverse   cterm=none ctermfg=black         ctermbg=lightgrey       gui=none guifg=black       guibg=lightgreen
-        hi VertSplit    term=reverse   cterm=none ctermfg=darkgrey      ctermbg=darkgrey        gui=none guifg=#c7c7c2     guibg=#d7d7d2 
+        hi VertSplit    term=reverse   cterm=none ctermfg=darkgrey      ctermbg=darkgrey        gui=none guifg=#c7c7c2     guibg=#d7d7d2
         hi StatusLineNC term=reverse   cterm=none ctermfg=white         ctermbg=darkgrey        gui=none guifg=darkgrey    guibg=#d7d7d2
         hi Comment      term=italic    cterm=none ctermfg=grey          ctermbg=white           gui=none guifg=#ccaaaa     guibg=bg
 else
         hi Visual       term=reverse   cterm=none ctermfg=green         ctermbg=darkgreen       gui=none guifg=black    guibg=lightgreen
-        hi VertSplit    term=reverse   cterm=none ctermfg=darkcyan      ctermbg=darkblue        gui=none guifg=darkgrey guibg=darkgrey 
+        hi VertSplit    term=reverse   cterm=none ctermfg=darkcyan      ctermbg=darkblue        gui=none guifg=darkgrey guibg=darkgrey
         hi StatusLineNC term=reverse   cterm=none ctermfg=white         ctermbg=darkblue        gui=none guifg=white    guibg=darkgrey
         hi Comment      term=italic    cterm=none ctermfg=darkcyan      ctermbg=white           gui=none guifg=#ccaaaa  guibg=bg
 endif

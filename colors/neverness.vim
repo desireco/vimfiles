@@ -13,7 +13,7 @@ endif
 let g:colors_name = 'neverness'
 
 " Comments: grey
-hi Comment        ctermfg=DarkCyan     guifg=#848484 guibg=#000000 gui=none 
+hi Comment        ctermfg=DarkCyan     guifg=#848484 guibg=#000000 gui=none
 
 " Constants: SkyBlue
 hi Boolean        ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none

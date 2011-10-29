@@ -72,9 +72,9 @@ TVO: The Vim Outliner
 		| Either double click inside the square brackets below, or put
 		| your cursor between the square brackets below and hit ctrl-]
 		| to learn more about Vim's tag navigation features.
-		| 
+		|
 		| [:he tags]
-		| 
+		|
 		| If you jump to a regular tag (as opposed to a file or to a Vim
 		| command reference) you can jump back using the usual ctrl-O
 		| [:he ctrl-O] or ctrl-T [:he ctrl-T] commands. If you jumped to a
@@ -87,12 +87,12 @@ TVO: The Vim Outliner
 		|
 		| You can jump back from the tag using the ctrl-T key, or by
 		| using Control-<RightMouse>, or by using g<RightMouse>
-		| 
+		|
 		| You can insert tag references in your text by using square
 		| brackets, like this:
-		| 
+		|
 		| [this is a tag]
-		| 
+		|
 		| Note that you can have spaces in the tag reference.
 		Jumping to files
 		| If you enclose the name of a file within square brackets, and
@@ -101,7 +101,7 @@ TVO: The Vim Outliner
 		Jumping to arbitrary Vim commands
 		| You can make a tag that will execute a Vim command by
 		| prefixing it with a ':' sign:
-		| 
+		|
 		| [:set]
 		Jumping to anchors within another file (using Viki)
 		| If you have Viki installed, you can use its ability to define
@@ -119,7 +119,7 @@ TVO: The Vim Outliner
 		| * Use a modeline to set the tags option [:he tags-option]:
 		|   | vim: tags=../tags
 		| * Set up a .vimrc [:he .vimrc] (and set the exrc option
-		|   [:he 'exrc']) 
+		|   [:he 'exrc'])
 		| * Set it in your own .vimrc
 Deplate support
 Upgrading
@@ -147,8 +147,8 @@ Configuring the outliner
 	Redefining the macro leader character
 	| If you want to use something other than a backslash to introduce
 	| the macros, you can set the 'maplocalleader' variable in your .vimrc
-	| file.  For instance, you can do this to set it to a comma: 
-	| 
+	| file.  For instance, you can do this to set it to a comma:
+	|
 	| set maplocalleader = ","
 	Setting textwidth
 	| The textwidth can be set with the tw or textwidth options like
@@ -161,9 +161,9 @@ Configuring the outliner
 	| will be created. This will happen for both headers and text. If
 	| you want it to happen just for text blocks (ones that start with
 	| "|" characters), do this (perhaps in a modeline):
-	| 
+	|
 	| :set fo-=t
-	| 
+	|
 	| TODO should I have a variable for this?
 	Setting tabwidth (and shiftwidth)
 Contents of an outline
@@ -181,14 +181,14 @@ Contents of an outline
 	| The "|" character introduces text blocks that will remain flush
 	| when the text wraps. The default highlighting tries to make
 	| the "|" sign less noticeable than the text itself.
-	| 
+	|
 	| You can use other characters after the '|' sign as markers:
 	|
 	| - The "-" character introduces items that will appear with a
 	|   hanging indent. So when you break a line the new characters
 	|   will appear offset.
 	| * The "*" character also introduces items that will appear
-	|   with a hanging indent. 
+	|   with a hanging indent.
 	Markup
 	| You can markup various pieces of text using:
 	|
@@ -352,5 +352,5 @@ Contacting the author
 |
 | [http://www.bike-nomad.com]
 |
-| (modeline:) 
+| (modeline:)
 | vim: tw=72 ts=3 sw=3 fo-=t foldlevel=10

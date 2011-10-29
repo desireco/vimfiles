@@ -106,7 +106,7 @@ hi Todo           ctermfg=46    ctermbg=22                   guifg=#00ff00  guib
 " Diff
 hi diffAdd        ctermfg=bg    ctermbg=151                  guifg=#afd787
 hi diffDelete     ctermfg=bg    ctermbg=246                  guifg=#d78787
-hi diffChange     ctermfg=bg    ctermbg=181                  guifg=#000000  guibg=#afd7af 
+hi diffChange     ctermfg=bg    ctermbg=181                  guifg=#000000  guibg=#afd7af
 hi diffText       ctermfg=bg    ctermbg=174   cterm=bold     guifg=#000000  guibg=#949494
 
 " Ruby

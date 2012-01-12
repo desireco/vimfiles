@@ -67,3 +67,9 @@
 [submodule "bundle/tailminusf"]
 	path = bundle/tailminusf
 	url = git://github.com/vim-scripts/TailMinusF.git
+[submodule "bundle/mustache-vim"]
+	path = bundle/mustache-vim
+	url = https://github.com/juvenn/mustache.vim.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git

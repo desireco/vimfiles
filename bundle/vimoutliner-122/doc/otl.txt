@@ -248,7 +248,7 @@ Don't use |thlnk| even if it exists:
 
 Change the key prefix for TVO mappings |tvo-mappings| (in this example, to a comma):
   let maplocalleader = ","
- 
+
 
 
 

@@ -2151,7 +2151,7 @@ your browsing preferences.  (see also: |netrw-settings|)
 					netrwMakefile: [mM]akefile *.mak
 					netrwObj     : *.o *.obj
 					netrwTags    : tags ANmenu ANtags
-					netrwTilde   : *~ 
+					netrwTilde   : *~
 					netrwTmp     : tmp* *tmp
 
 				These syntax highlighting groups are linked

@@ -57,7 +57,7 @@ if has("gui_running")
 	hi PmenuSel		guifg=#2a2b2f	guibg=#62acce	gui=bold
 	hi PmenuSbar	guifg=#2a2b2f	guibg=#2a2b2f	gui=none
 	hi PmenuThumb	guifg=#2a2b2f	guibg=#62acce	gui=none
-	hi PreProc		guifg=#d1d435	guibg=#2a2b2f	gui=none 
+	hi PreProc		guifg=#d1d435	guibg=#2a2b2f	gui=none
 	hi Search		guifg=#2a2b2f	guibg=#e1e0e5	gui=none
 	hi Special		guifg=#9ab2c8	guibg=#2a2b2f	gui=none
 	hi Statement	guifg=#62acce	guibg=#2a2b2f	gui=bold
@@ -86,7 +86,7 @@ else
 		hi PmenuSel		ctermfg=235	ctermbg=81	cterm=bold
 		hi PmenuSbar	ctermfg=235	ctermbg=235	cterm=none
 		hi PmenuThumb	ctermfg=235	ctermbg=81	cterm=none
-		hi PreProc		ctermfg=184	ctermbg=235	cterm=none 
+		hi PreProc		ctermfg=184	ctermbg=235	cterm=none
 		hi Search		ctermfg=235	ctermbg=254	cterm=none
 		hi Special		ctermfg=74	ctermbg=235	cterm=none
 		hi Statement	ctermfg=81	ctermbg=235	cterm=none
@@ -104,7 +104,7 @@ hi! link Boolean		Constant
 hi! link Character		Constant
 hi! link Conditional	Statement
 hi! link CursorColumn	CursorLine
-hi! link Debug			Special	
+hi! link Debug			Special
 hi! link Define			PreProc
 hi! link Delimiter		Special
 hi! link Directory		Type

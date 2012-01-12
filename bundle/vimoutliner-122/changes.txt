@@ -20,13 +20,13 @@ v108 (13 March 2006)
 
 Added global g:otl_initial_foldlevel to set preferred folding level for .otl files
 
-Respect foldlevel settings in modelines. 
+Respect foldlevel settings in modelines.
 
 v107 (7 March 2006)
 
 Made sure that newly created buffers would look right when you set the filetype to otl.
 
-Made sure that existing buffers would look right when you set the filetype to otl. 
+Made sure that existing buffers would look right when you set the filetype to otl.
 
 1.56-
 
@@ -93,4 +93,4 @@ If you have it installed, then a tag jump on a recognized Viki name will follow 
 
 Made sure that newly created buffers would look right when you set the filetype to otl.
 
-Made sure that existing buffers would look right when you set the filetype to otl. 
+Made sure that existing buffers would look right when you set the filetype to otl.

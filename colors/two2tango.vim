@@ -4,7 +4,7 @@
 " Version: 1.1
 "
 " Big props to Panos Laganakos <panos.laganakos@gmail.com>
-" for the original darktango.vim colorscheme upon which 
+" for the original darktango.vim colorscheme upon which
 " this scheme is based.
 
 set background=dark
@@ -37,7 +37,7 @@ let s:Background    = '#212628'
 " }}}
 
 hi Normal      guibg=#2e3436 guifg=#d3d7cf
-execute "hi Normal      guibg=" . s:Aluminium[5]  . " guifg=" . s:Aluminium[1] 
+execute "hi Normal      guibg=" . s:Aluminium[5]  . " guifg=" . s:Aluminium[1]
 
 " {{{ syntax
 execute "hi Comment      gui=italic guifg=" . s:Aluminium[4]
@@ -53,8 +53,8 @@ execute "hi Special      guifg=" . s:SkyBlue[1]
 execute "hi Statement    guifg=" . s:Aluminium[3]
 execute "hi String       guifg=" . s:SkyBlue[0]
 execute "hi Title        guifg=" . s:Aluminium[0]
-execute "hi Todo         gui=bold guisp=NONE guibg=" . s:Orange[2] 
-			\. " guifg=" . s:Aluminium[0] 
+execute "hi Todo         gui=bold guisp=NONE guibg=" . s:Orange[2]
+			\. " guifg=" . s:Aluminium[0]
 execute "hi Type         guifg=" . s:Orange[2]
 execute "hi Underlined   gui=underline guifg=" . s:SkyBlue[0]
 " }}}
@@ -68,7 +68,7 @@ execute "hi Directory    guifg=" . s:SkyBlue[0]
 execute "hi ErrorMsg     guifg=" . s:Aluminium[0] . " guibg=" . s:ScarletRed[2]
 execute "hi FoldColumn   guibg=" . s:Aluminium[5] . " guifg=" . s:Aluminium[4]
 execute "hi Folded       guibg=" . s:Aluminium[4] . " guifg=" . s:Aluminium[2]
-execute "hi IncSearch    gui=none guibg=" . s:Butter[0] . " guifg=" . s:Butter[2] 
+execute "hi IncSearch    gui=none guibg=" . s:Butter[0] . " guifg=" . s:Butter[2]
 execute "hi LineNr       guibg=" . s:Aluminium[5] . " guifg=" . s:Aluminium[4]
 execute "hi MatchParen   guibg=" . s:Aluminium[2] . " guifg=" . s:Aluminium[5]
 "hi Menu      TODO
@@ -77,7 +77,7 @@ execute "hi MoreMsg      guifg=" . s:Orange[2]
 execute "hi NonText      guibg=" . s:Aluminium[5] . " guifg=" . s:Aluminium[4]
 execute "hi Pmenu        guibg=" . s:Aluminium[2] . " guifg=" . s:Aluminium[4]
 execute "hi PmenuSel     guibg=" . s:Aluminium[0] . " guifg=" . s:Aluminium[5]
-execute "hi Question     guifg=" . s:Plum[0] 
+execute "hi Question     guifg=" . s:Plum[0]
 "hi Scrollbar TODO
 execute "hi Search       guibg=" . s:Butter[0] . " guifg=" . s:Butter[2]
 execute "hi SpecialKey   guifg=" . s:Orange[2]

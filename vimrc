@@ -1,5 +1,5 @@
 set nocompatible
-colorscheme desert 
+colorscheme desert
 colorscheme darkspectrum
 colorscheme anotherdark
 colorscheme darkz
@@ -22,7 +22,7 @@ set number
 set nobackup
 set noswapfile
 
-filetype off 
+filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
@@ -44,7 +44,7 @@ let no_otl_insert_maps=0
 let mapleader=','
 
 nnoremap ; :
-noremap <leader>t :CommandT<CR>  
+noremap <leader>t :CommandT<CR>
 noremap <leader>sd :NERDTree<CR>
 nmap <silent> ,/ :let @/=""<CR>
 
@@ -56,12 +56,12 @@ map <CA-Down> <C-w><Down>
 nnoremap <leader>wr <Plug>VimroomToggle
 
 noremap <Leader>vm :RVmodel <CR>
-noremap <Leader>vc :RVcontroller <CR> 
+noremap <Leader>vc :RVcontroller <CR>
 noremap <Leader>vv :RVview <CR>
 noremap <Leader>vu :RVunittest <CR>
 noremap <Leader>vM :RVmigration <CR>
 noremap <Leader>vs :RVspec <CR>
-noremap <Leader>rf :Rfind 
+noremap <Leader>rf :Rfind
 
 
 function! DoPrettyXML()

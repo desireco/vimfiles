@@ -31,7 +31,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "oceandeep"
 
-"""" GUI 
+"""" GUI
 
 highlight Cursor        gui=None guibg=PaleTurquoise3 guifg=White
 highlight CursorIM      gui=bold guifg=white guibg=PaleTurquoise3

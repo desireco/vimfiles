@@ -16,13 +16,13 @@ endif
 let colors_name = "ironman"
 
 hi Normal                    guifg=#222222 guibg=#F0F0F0
-                             
+
 " Search
 hi IncSearch                 gui=NONE guifg=Black guibg=#FFFF4B
 hi Search                    gui=NONE guifg=Black guibg=#FFFF8F
 
 " Messages
-hi ErrorMsg                  gui=NONE guifg=#FF0000 guibg=NONE    
+hi ErrorMsg                  gui=NONE guifg=#FF0000 guibg=NONE
 hi WarningMsg                gui=NONE guifg=#FF6600 guibg=NONE
 hi ModeMsg                   gui=NONE guifg=#0070ff guibg=NONE
 hi MoreMsg                   gui=NONE guifg=#FF6600 guibg=NONE
@@ -46,18 +46,18 @@ hi DiffText                  gui=NONE guifg=#2020ff guibg=#c8f2ea
 hi DiffDelete                gui=NONE guifg=#f83010 guibg=#ffeae0
 hi DiffAdd                   gui=NONE guifg=#006800 guibg=#d0ffd0
 hi DiffChange                gui=NONE guifg=#2020ff guibg=#c8f2ea
-                             
+
 " Cursor
 hi Cursor                    gui=NONE guifg=#ffffff guibg=#DE7171
 hi lCursor                   gui=NONE guifg=#f8f8f8 guibg=#8000ff
 hi CursorIM                  gui=NONE guifg=#f8f8f8 guibg=#8000ff
 hi CursorLine                gui=NONE guifg=NONE    guibg=#f6f6f6
 hi CursorColumn              gui=NONE guifg=NONE    guibg=#F9F9F9
-                             
+
 " Fold
 hi Folded                    gui=NONE guifg=#3399ff guibg=#EAF5FF
 hi FoldColumn                gui=NONE guifg=#3399ff guibg=#EAF5FF
-                             
+
 " Other hi Directory         gui=NONE guifg=#0000ff guibg=NONE
 hi LineNr                    gui=NONE guifg=#FFFFFF guibg=#C0D0E0
 hi NonText                   gui=NONE guifg=#C0C0C0 guibg=#E0E0E0

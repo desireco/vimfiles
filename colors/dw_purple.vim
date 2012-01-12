@@ -63,4 +63,4 @@ hi VertSplit       gui=none       guibg=#000000  guifg=#ffffff
 hi Visual                         guibg=#dd00dd  guifg=#000000
 hi WarningMsg                     guibg=#888888  guifg=#000000
 
-"- end of colorscheme -----------------------------------------------  
+"- end of colorscheme -----------------------------------------------

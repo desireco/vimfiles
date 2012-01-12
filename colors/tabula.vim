@@ -4,10 +4,10 @@
 " Version:       1.3.2
 " Maintainer:    Bernd Pol (bernd.pol AT online DOT de)
 " Copyright:     2006 Bernd Pol
-"                This script is free software; you can redistribute it and/or 
-"                modify it under the terms of the GNU General Public License as 
-"                published by the Free Software Foundation; either version 2 of 
-"                the License, or (at your option) any later version. 
+"                This script is free software; you can redistribute it and/or
+"                modify it under the terms of the GNU General Public License as
+"                published by the Free Software Foundation; either version 2 of
+"                the License, or (at your option) any later version.
 " Description:   Vim colorscheme based on marklar.vim by SM Smithfield,
 "                slightly modified for harmonic, yet easily distinguishable
 "                display on GUI and a 256 color xterm as well.
@@ -183,7 +183,7 @@ if version >= 700
 endif
 "------------------------------------------------------------------------------
 
-"hi Comment             guifg=#00C5E7                                   ctermfg=39      
+"hi Comment             guifg=#00C5E7                                   ctermfg=39
 hi Comment              guifg=#00C5E7                                   ctermfg=51
 
 "------------------------------------------------------------------------------
@@ -275,7 +275,7 @@ endif
 hi ModeMsg              guifg=#FFFFFF   guibg=#0000FF   gui=NONE        ctermfg=7       ctermbg=4       cterm=NONE
 hi MoreMsg              guifg=#FFFFFF   guibg=#00A261   gui=NONE        ctermfg=7       ctermbg=28      cterm=NONE
 
-hi Normal               guifg=#71D289   guibg=#004A41                   ctermfg=84      ctermbg=23 
+hi Normal               guifg=#71D289   guibg=#004A41                   ctermfg=84      ctermbg=23
 
 "------------------------------------------------------------------------------
 " Preprocessor Variants:
@@ -393,17 +393,17 @@ hi OL9                  guifg=#87D7D7                                   ctermfg=
 
 " colors for tags
 hi outlTags             guifg=#F269E4                                   ctermfg=213
-        
+
 " color for body text
-hi BT1                  guifg=#71D289                                   ctermfg=84 
-hi BT2                  guifg=#71D289                                   ctermfg=84 
-hi BT3                  guifg=#71D289                                   ctermfg=84 
-hi BT4                  guifg=#71D289                                   ctermfg=84 
-hi BT5                  guifg=#71D289                                   ctermfg=84 
-hi BT6                  guifg=#71D289                                   ctermfg=84 
-hi BT7                  guifg=#71D289                                   ctermfg=84 
-hi BT8                  guifg=#71D289                                   ctermfg=84 
-hi BT9                  guifg=#71D289                                   ctermfg=84 
+hi BT1                  guifg=#71D289                                   ctermfg=84
+hi BT2                  guifg=#71D289                                   ctermfg=84
+hi BT3                  guifg=#71D289                                   ctermfg=84
+hi BT4                  guifg=#71D289                                   ctermfg=84
+hi BT5                  guifg=#71D289                                   ctermfg=84
+hi BT6                  guifg=#71D289                                   ctermfg=84
+hi BT7                  guifg=#71D289                                   ctermfg=84
+hi BT8                  guifg=#71D289                                   ctermfg=84
+hi BT9                  guifg=#71D289                                   ctermfg=84
 
 " color for pre-formatted text
 hi PT1                  guifg=#7DDCDB                                   ctermfg=123
@@ -416,7 +416,7 @@ hi PT7                  guifg=#7DDCDB                                   ctermfg=
 hi PT8                  guifg=#7DDCDB                                   ctermfg=123
 hi PT9                  guifg=#7DDCDB                                   ctermfg=123
 
-" color for tables 
+" color for tables
 hi TA1                  guifg=#918EE4                                   ctermfg=105
 hi TA2                  guifg=#918EE4                                   ctermfg=105
 hi TA3                  guifg=#918EE4                                   ctermfg=105
@@ -429,26 +429,26 @@ hi TA9                  guifg=#918EE4                                   ctermfg=
 
 " color for user text (wrapping)
 hi UT1                  guifg=#71D289                                   ctermfg=84
-hi UT2                  guifg=#71D289                                   ctermfg=84 
-hi UT3                  guifg=#71D289                                   ctermfg=84 
-hi UT4                  guifg=#71D289                                   ctermfg=84 
-hi UT5                  guifg=#71D289                                   ctermfg=84 
-hi UT6                  guifg=#71D289                                   ctermfg=84 
-hi UT7                  guifg=#71D289                                   ctermfg=84 
-hi UT8                  guifg=#71D289                                   ctermfg=84 
-hi UT9                  guifg=#71D289                                   ctermfg=84 
-        
-" color for user text (non-wrapping)
-hi UT1                  guifg=#71D289                                   ctermfg=84 
-hi UT2                  guifg=#71D289                                   ctermfg=84 
-hi UT3                  guifg=#71D289                                   ctermfg=84 
-hi UT4                  guifg=#71D289                                   ctermfg=84 
-hi UT5                  guifg=#71D289                                   ctermfg=84 
-hi UT6                  guifg=#71D289                                   ctermfg=84 
-hi UT7                  guifg=#71D289                                   ctermfg=84 
-hi UT8                  guifg=#71D289                                   ctermfg=84 
+hi UT2                  guifg=#71D289                                   ctermfg=84
+hi UT3                  guifg=#71D289                                   ctermfg=84
+hi UT4                  guifg=#71D289                                   ctermfg=84
+hi UT5                  guifg=#71D289                                   ctermfg=84
+hi UT6                  guifg=#71D289                                   ctermfg=84
+hi UT7                  guifg=#71D289                                   ctermfg=84
+hi UT8                  guifg=#71D289                                   ctermfg=84
 hi UT9                  guifg=#71D289                                   ctermfg=84
-        
+
+" color for user text (non-wrapping)
+hi UT1                  guifg=#71D289                                   ctermfg=84
+hi UT2                  guifg=#71D289                                   ctermfg=84
+hi UT3                  guifg=#71D289                                   ctermfg=84
+hi UT4                  guifg=#71D289                                   ctermfg=84
+hi UT5                  guifg=#71D289                                   ctermfg=84
+hi UT6                  guifg=#71D289                                   ctermfg=84
+hi UT7                  guifg=#71D289                                   ctermfg=84
+hi UT8                  guifg=#71D289                                   ctermfg=84
+hi UT9                  guifg=#71D289                                   ctermfg=84
+
 " colors for experimental spelling error highlighting
 " this only works for spellfix.vim with will be cease to exist soon
 hi spellErr             guifg=#E4E300                   gui=underline   ctermfg=11                      cterm=underline

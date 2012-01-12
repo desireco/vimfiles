@@ -40,7 +40,7 @@ hi Normal               guibg=#233b5a guifg=#fff8dc
 "hi Question
 hi Search               gui=bold guifg=#233b5a guibg=lightgoldenrod
 "hi SpecialKey
-hi StatusLine           guifg=steelblue4 guibg=lightgray 
+hi StatusLine           guifg=steelblue4 guibg=lightgray
 hi StatusLineNC         guifg=royalblue4 guibg=lightsteelblue
 "hi Title
 hi Visual               guifg=steelblue guibg=fg

@@ -104,34 +104,34 @@ if g:otl_use_viki
   "   b:getVikiLink (name of getLink fn)
   "
   "   b:vikiSimpleNameQuoteChars
-  "   b:vikiSimpleNameQuoteBeg  
-  "   b:vikiSimpleNameQuoteEnd  
-  "   b:vikiQuotedSelfRef       
-  "   b:vikiQuotedRef           
+  "   b:vikiSimpleNameQuoteBeg
+  "   b:vikiSimpleNameQuoteEnd
+  "   b:vikiQuotedSelfRef
+  "   b:vikiQuotedRef
   "
-  "   b:vikiAnchorNameRx        
+  "   b:vikiAnchorNameRx
   "   b:vikiSimpleNameRx
-  "   b:vikiSimpleNameSimpleRx 
-  "   b:vikiSimpleNameNameIdx  
-  "   b:vikiSimpleNameDestIdx  
+  "   b:vikiSimpleNameSimpleRx
+  "   b:vikiSimpleNameNameIdx
+  "   b:vikiSimpleNameDestIdx
   "   b:vikiSimpleNameAnchorIdx
   "
   "   b:vikiUrlRx
-  "   b:vikiUrlSimpleRx 
-  "   b:vikiUrlNameIdx  
-  "   b:vikiUrlDestIdx  
+  "   b:vikiUrlSimpleRx
+  "   b:vikiUrlNameIdx
+  "   b:vikiUrlDestIdx
   "   b:vikiUrlAnchorIdx
   "
   "   b:vikiCmdRx
-  "   b:vikiCmdSimpleRx 
-  "   b:vikiCmdNameIdx  
-  "   b:vikiCmdDestIdx  
+  "   b:vikiCmdSimpleRx
+  "   b:vikiCmdNameIdx
+  "   b:vikiCmdDestIdx
   "   b:vikiCmdAnchorIdx
   "
   "   b:vikiExtendedNameRx
-  "   b:vikiExtendedNameSimpleRx 
-  "   b:vikiExtendedNameNameIdx  
-  "   b:vikiExtendedNameDestIdx  
+  "   b:vikiExtendedNameSimpleRx
+  "   b:vikiExtendedNameNameIdx
+  "   b:vikiExtendedNameDestIdx
   "   b:vikiExtendedNameAnchorIdx
   "
   fun! VikiSetupBufferTVO(state, ...)
@@ -700,7 +700,7 @@ if !exists("s:otl_loaded_functions")
     endif
     return foldWasClosed
   endfunction
- 
+
   " Make sure that the fold at the cursor is opened without opening the
   " parent. Returns non-zero if the fold was not closed
   function s:OtlOpenThisFold()
@@ -726,7 +726,7 @@ if !exists("s:otl_loaded_functions")
       normal zo
     endif
   endfunction
- 
+
   " Move the current head (and subheads/text) down by the
   " (possibly negative) given number of lines.
   function s:OtlMoveDownBy(lines)
@@ -795,7 +795,7 @@ if !exists("s:otl_loaded_functions")
 
     return -1
 
-  endfunction 
+  endfunction
 
   " Move the current heading up or down by one heading
   function s:OtlShiftHeading(direction)
@@ -823,7 +823,7 @@ if !exists("s:otl_loaded_functions")
       normal yy
       let locationToDelete = line('.')
       exe "normal ".dest."G"
-      
+
       let destFoldWasClosed = s:OtlCloseThisFold()
       normal p
       if (! destFoldWasClosed)
@@ -871,7 +871,7 @@ if !exists("s:otl_loaded_functions")
   function s:OtlCountWords()
     call s:OtlExtractText()
     1,$!wc -w
-    normal 0cwTotal words: 
+    normal 0cwTotal words:
     exe "normal z1\<CR>"
     set nomodified
     exe "normal \<c-w>\<c-p>"
@@ -899,7 +899,7 @@ if !exists("s:otl_loaded_functions")
       let header = substitute(line, '^\(\t*\)|\s*\(.*\)', '\1\2', '')
       exe lineNum . 'd'
       while lineNum <= line('$')
-        let line = getline(lineNum) 
+        let line = getline(lineNum)
         if (line !~ s:beginningOfTextLine)
           break
         endif
@@ -930,7 +930,7 @@ if !exists("s:otl_loaded_functions")
     " for wrapping headers too:
     " setlocal formatoptions+=t
     " whole must come before part:
-    setlocal comments=s:\|\ -,m:\|\ \ ,e:\|\ \ ,s:\|\ *,m:\|\ \ ,e:\|\ \ ,b:\|>>>>>,b:\|>>>>,b:\|>>>,b:\|>>,b:\|>,b:\|,f:*\ ,f:-\ 
+    setlocal comments=s:\|\ -,m:\|\ \ ,e:\|\ \ ,s:\|\ *,m:\|\ \ ,e:\|\ \ ,b:\|>>>>>,b:\|>>>>,b:\|>>>,b:\|>>,b:\|>,b:\|,f:*\ ,f:-\
     " setlocal iskeyword=\ -~,^\|,^[,^*
 
     " Set up file defaults (can be overridden by modelines)

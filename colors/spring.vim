@@ -2,8 +2,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " File Name:      spring.vim
-" Abstract:       A color sheme file (only for GVIM), which make the VIM 
-"                 bright with colors. It looks like the flowers are in 
+" Abstract:       A color sheme file (only for GVIM), which make the VIM
+"                 bright with colors. It looks like the flowers are in
 "                 blossom in Spring.
 " Author:         CHE Wenlong <chewenlong AT buaa.edu.cn>
 " Version:        1.0

@@ -23,7 +23,7 @@ first line of its text, if any, but not any of its sub-headlines.
 
 Operations on headlines affect their text as well as subheads.  These include:
 
-* Promote/Demote (decrease/increase the indent) 
+* Promote/Demote (decrease/increase the indent)
 * Cut Paste before/after
 * Yank (copy)
 

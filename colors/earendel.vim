@@ -52,7 +52,7 @@ if &background == "light"
         hi Visual ctermbg=7 ctermfg=fg guibg=#b5c5e6 gui=none
     else
         hi Visual ctermbg=7 ctermfg=fg guibg=#b5c5e6 guifg=fg gui=none
-    endif    
+    endif
     hi VisualNOS ctermbg=8 ctermfg=fg guibg=bg guifg=#4069bf gui=bold,underline
     hi WarningMsg guibg=bg guifg=#ca001f gui=bold
     hi WildMenu guibg=#fedc56 guifg=fg gui=bold
@@ -122,7 +122,7 @@ else
         hi Visual ctermbg=7 ctermfg=0 guibg=#274278 gui=none
     else
         hi Visual ctermbg=7 ctermfg=0 guibg=#274278 guifg=fg gui=none
-    endif    
+    endif
     hi VisualNOS ctermbg=8 ctermfg=0 guibg=bg guifg=#5c77ad gui=bold,underline
     hi WarningMsg guibg=bg guifg=#ea0023 gui=bold
     hi WildMenu guibg=#fbca01 guifg=#000000 gui=bold

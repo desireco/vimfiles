@@ -1,27 +1,3 @@
-set nocompatible
-colorscheme desert 
-colorscheme darkspectrum
-colorscheme anotherdark
-colorscheme darkz
-
-colorscheme darkblue2
-colorscheme desert
-
-colorscheme autumn2 
-colorscheme silent 
-colorscheme SoSo 
-colorscheme TAqua 
-
-colorscheme darkz
-
-set autoindent
-set ruler
-set tabstop=2
-set ignorecase
-set number
-set nobackup
-set noswapfile
-
 filetype off 
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
@@ -40,29 +16,6 @@ let otl_map_tabs = 1
 let otl_install_menu=1
 let no_otl_maps=0
 let no_otl_insert_maps=0
-
-let mapleader=','
-
-nnoremap ; :
-noremap <leader>t :CommandT<CR>  
-noremap <leader>sd :NERDTree<CR>
-nmap <silent> ,/ :let @/=""<CR>
-
-map <CA-Left> <C-w><Left>
-map <CA-Right> <C-w><Right>
-map <CA-Up> <C-w><Up>
-map <CA-Down> <C-w><Down>
-
-nnoremap <leader>wr <Plug>VimroomToggle
-
-noremap <Leader>vm :RVmodel <CR>
-noremap <Leader>vc :RVcontroller <CR> 
-noremap <Leader>vv :RVview <CR>
-noremap <Leader>vu :RVunittest <CR>
-noremap <Leader>vM :RVmigration <CR>
-noremap <Leader>vs :RVspec <CR>
-noremap <Leader>rf :Rfind 
-
 
 function! DoPrettyXML()
   " save the filetype so we can restore it later
